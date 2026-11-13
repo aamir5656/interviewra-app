@@ -101,8 +101,8 @@ export function Composer({ onSend, disabled, maxLength = LIMITS.answerMax }: Com
           {voiceNote ?? speech.error}
         </p>
       )}
-      <div className="mx-auto mt-1.5 flex w-full max-w-3xl items-center justify-between text-xs text-muted-foreground">
-        <span>Enter to send · Shift+Enter for a new line</span>
+      <div className="mx-auto mt-1.5 flex w-full max-w-3xl items-center justify-end text-xs text-muted-foreground sm:justify-between">
+        <span className="hidden sm:inline">Enter to send · Shift+Enter for a new line</span>
         <span className={cn("tabular-nums", nearLimit && "font-medium text-destructive")} aria-label="Characters used">
           {text.length}/{maxLength}
         </span>
