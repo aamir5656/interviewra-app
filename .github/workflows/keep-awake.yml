@@ -1,0 +1,15 @@
+# OPTIONAL. Render's free web service sleeps after ~15 minutes without traffic; this pings /health to keep it warm.
+# Setup: repo Settings > Secrets and variables > Actions > Variables > add BACKEND_URL (https://interviewra-api.onrender.com).
+# Delete this file if you prefer UptimeRobot or cron-job.org (same URL, every 10 minutes). GitHub may delay scheduled runs.
+name: Keep API awake
+on:
+  schedule:
+    - cron: "*/10 * * * *"
+  workflow_dispatch:
+
+jobs:
+  ping:
+    if: ${{ vars.BACKEND_URL != '' }}
+    runs-on: ubuntu-latest
+    steps:
+      - run: curl --fail --silent --show-error --max-time 60 "${{ vars.BACKEND_URL }}/health"

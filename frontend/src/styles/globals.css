@@ -1,0 +1,105 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+@plugin "@tailwindcss/typography";
+
+@custom-variant dark (&:is(.dark *));
+
+/* Theme tokens. Light = "Warm Paper" (alternate), .dark = "Midnight Lime" (default). */
+:root {
+  --bg: #faf6ef;
+  --surface: #ffffff;
+  --border: #e7dfd2;
+  --text: #1f1a17;
+  --muted: #7a6f66;
+  --accent: #e4572e;
+  --accent-2: #0f766e;
+  --on-accent: #ffffff;
+  --radius: 0.75rem;
+}
+
+.dark {
+  --bg: #0b100e;
+  --surface: #131a17;
+  --border: #223029;
+  --text: #e8efea;
+  --muted: #8a9a91;
+  --accent: #b6f34b;
+  --accent-2: #34d399;
+  --on-accent: #0b100e;
+}
+
+/* Map the tokens to Tailwind / shadcn color names. */
+@theme inline {
+  --color-background: var(--bg);
+  --color-foreground: var(--text);
+  --color-card: var(--surface);
+  --color-card-foreground: var(--text);
+  --color-popover: var(--surface);
+  --color-popover-foreground: var(--text);
+  --color-primary: var(--accent);
+  --color-primary-foreground: var(--on-accent);
+  --color-secondary: var(--surface);
+  --color-secondary-foreground: var(--text);
+  --color-muted: color-mix(in srgb, var(--text) 7%, transparent);
+  --color-muted-foreground: var(--muted);
+  --color-accent: color-mix(in srgb, var(--text) 9%, transparent); /* shadcn hover background */
+  --color-accent-foreground: var(--text);
+  --color-destructive: #e5484d;
+  --color-border: var(--border);
+  --color-input: var(--border);
+  --color-ring: var(--accent);
+  --color-brand: var(--accent);
+  --color-brand-2: var(--accent-2);
+  --color-surface: var(--surface);
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  --font-heading: var(--font-space-grotesk), ui-sans-serif, system-ui, sans-serif;
+  --animate-drift: drift 18s ease-in-out infinite;
+  --animate-drift-slow: drift 26s ease-in-out infinite reverse;
+  --animate-typing: typing-dot 1.2s ease-in-out infinite;
+}
+
+@keyframes wave {
+  0%, 100% { transform: scaleY(0.35); }
+  50% { transform: scaleY(1); }
+}
+
+@keyframes drift {
+  0%, 100% { transform: translate3d(0, 0, 0) scale(1); }
+  50% { transform: translate3d(3%, 4%, 0) scale(1.08); }
+}
+
+@keyframes typing-dot {
+  0%, 60%, 100% { transform: translate3d(0, 0, 0); opacity: 0.35; }
+  30% { transform: translate3d(0, -4px, 0); opacity: 1; }
+}
+
+@layer base {
+  * { border-color: var(--border); }
+  html { color-scheme: light; scroll-behavior: smooth; }
+  html.dark { color-scheme: dark; }
+  body { background: var(--bg); color: var(--text); font-family: var(--font-sans); }
+  h1, h2, h3, h4 { font-family: var(--font-heading); letter-spacing: -0.02em; }
+  :focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+  ::selection { background: color-mix(in srgb, var(--accent) 35%, transparent); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after { animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; transition-duration: 0.01ms !important; }
+}
+
+/* Print: "Download report" uses the browser's print dialog, so show only the report on a clean light page. */
+@media print {
+  :root, .dark {
+    --bg: #fff; --surface: #fff; --border: #d9d9d9; --text: #111; --muted: #555; --accent: #3f6212; --accent-2: #0f766e; --on-accent: #fff;
+  }
+  body { background: #fff !important; }
+  #main { display: block; }
+  [role="status"], [data-sonner-toaster], [data-slot="dialog-overlay"] { display: none !important; }
+  li { break-inside: avoid; }
+  h2 { break-after: avoid; }
+}

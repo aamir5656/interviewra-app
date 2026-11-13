@@ -1,0 +1,21 @@
+services:
+  db:
+    image: postgres:16
+    container_name: interviewra-db
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: interviewra
+      POSTGRES_PASSWORD: interviewra
+      POSTGRES_DB: interviewra
+    ports:
+      - "5432:5432"
+    volumes:
+      - interviewra_pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U interviewra -d interviewra"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+
+volumes:
+  interviewra_pgdata:

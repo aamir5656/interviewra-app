@@ -1,0 +1,1318 @@
+[
+ {
+  "track": "backend",
+  "type": "technical",
+  "topic": "REST API design",
+  "difficulty": "easy",
+  "question": "How would you design the endpoints of a REST API for a simple to-do app?"
+ },
+ {
+  "track": "backend",
+  "type": "technical",
+  "topic": "HTTP status codes",
+  "difficulty": "easy",
+  "question": "When should an API return 404 instead of 400?"
+ },
+ {
+  "track": "backend",
+  "type": "technical",
+  "topic": "SQL joins",
+  "difficulty": "easy",
+  "question": "What is the difference between an INNER JOIN and a LEFT JOIN?"
+ },
+ {
+  "track": "backend",
+  "type": "technical",
+  "topic": "Database indexing",
+  "difficulty": "easy",
+  "question": "Why does a database index make some queries faster?"
+ },
+ {
+  "track": "backend",
+  "type": "technical",
+  "topic": "Password storage",
+  "difficulty": "easy",
+  "question": "How should a backend store user passwords?"
+ },
+ {
+  "track": "backend",
+  "type": "technical",
+  "topic": "Authentication vs authorization",
+  "difficulty": "easy",
+  "question": "What is the difference between authentication and authorization?"
+ },
+ {
+  "track": "backend",
+  "type": "technical",
+  "topic": "HTTP methods",
+  "difficulty": "easy",
+  "question": "What is the difference between a GET and a POST request?"
+ },
+ {
+  "track": "backend",
+  "type": "technical",
+  "topic": "Environment variables",
+  "difficulty": "easy",
+  "question": "Why should API keys live in environment variables instead of in the code?"
+ },
+ {
+  "track": "backend",
+  "type": "technical",
+  "topic": "Input validation",
+  "difficulty": "easy",
+  "question": "Why must a server validate data even when the frontend already validates it?"
+ },
+ {
+  "track": "backend",
+  "type": "technical",
+  "topic": "Caching",
+  "difficulty": "medium",
+  "question": "Where would you add a cache in a read-heavy API?"
+ },
+ {
+  "track": "backend",
+  "type": "technical",
+  "topic": "Pagination",
+  "difficulty": "medium",
+  "question": "How would you paginate a list endpoint that can return thousands of rows?"
+ },
+ {
+  "track": "backend",
+  "type": "technical",
+  "topic": "Database transactions",
+  "difficulty": "medium",
+  "question": "What problem does a database transaction solve?"
+ },
+ {
+  "track": "backend",
+  "type": "technical",
+  "topic": "N+1 queries",
+  "difficulty": "medium",
+  "question": "What is the N+1 query problem?"
+ },
+ {
+  "track": "backend",
+  "type": "technical",
+  "topic": "JWT vs sessions",
+  "difficulty": "medium",
+  "question": "What are the trade-offs between JWT tokens and server-side sessions?"
+ },
+ {
+  "track": "backend",
+  "type": "technical",
+  "topic": "Rate limiting",
+  "difficulty": "medium",
+  "question": "How would you protect a public API from abuse?"
+ },
+ {
+  "track": "backend",
+  "type": "technical",
+  "topic": "Idempotency",
+  "difficulty": "medium",
+  "question": "Why does idempotency matter for a payment endpoint?"
+ },
+ {
+  "track": "backend",
+  "type": "technical",
+  "topic": "Background jobs",
+  "difficulty": "medium",
+  "question": "When would you move work out of the request cycle into a background job?"
+ },
+ {
+  "track": "backend",
+  "type": "technical",
+  "topic": "API error handling",
+  "difficulty": "medium",
+  "question": "How should an API report errors to its clients?"
+ },
+ {
+  "track": "backend",
+  "type": "technical",
+  "topic": "Scaling reads",
+  "difficulty": "hard",
+  "question": "How would you scale a database that is read-heavy?"
+ },
+ {
+  "track": "backend",
+  "type": "technical",
+  "topic": "Race conditions",
+  "difficulty": "hard",
+  "question": "How would you stop two requests from booking the same seat?"
+ },
+ {
+  "track": "backend",
+  "type": "technical",
+  "topic": "Distributed consistency",
+  "difficulty": "hard",
+  "question": "How would you keep two services consistent when one of them fails halfway through an operation?"
+ },
+ {
+  "track": "backend",
+  "type": "technical",
+  "topic": "Zero-downtime migrations",
+  "difficulty": "hard",
+  "question": "How would you rename a column in a large production table without downtime?"
+ },
+ {
+  "track": "backend",
+  "type": "technical",
+  "topic": "API observability",
+  "difficulty": "hard",
+  "question": "Which signals would you monitor to detect that an API is slowly degrading?"
+ },
+ {
+  "track": "backend",
+  "type": "technical",
+  "topic": "Message queues",
+  "difficulty": "hard",
+  "question": "When is a message queue a better choice than a direct API call?"
+ },
+ {
+  "track": "frontend",
+  "type": "technical",
+  "topic": "JavaScript variables",
+  "difficulty": "easy",
+  "question": "What are the main differences between let, const and var?"
+ },
+ {
+  "track": "frontend",
+  "type": "technical",
+  "topic": "CSS box model",
+  "difficulty": "easy",
+  "question": "How does the CSS box model work?"
+ },
+ {
+  "track": "frontend",
+  "type": "technical",
+  "topic": "Flexbox vs Grid",
+  "difficulty": "easy",
+  "question": "When would you use Flexbox instead of CSS Grid?"
+ },
+ {
+  "track": "frontend",
+  "type": "technical",
+  "topic": "Event bubbling",
+  "difficulty": "easy",
+  "question": "What is event bubbling in the browser?"
+ },
+ {
+  "track": "frontend",
+  "type": "technical",
+  "topic": "Semantic HTML",
+  "difficulty": "easy",
+  "question": "Why does semantic HTML matter?"
+ },
+ {
+  "track": "frontend",
+  "type": "technical",
+  "topic": "Accessible forms",
+  "difficulty": "easy",
+  "question": "What makes a web form accessible?"
+ },
+ {
+  "track": "frontend",
+  "type": "technical",
+  "topic": "Props and state",
+  "difficulty": "easy",
+  "question": "What is the difference between props and state in React?"
+ },
+ {
+  "track": "frontend",
+  "type": "technical",
+  "topic": "Array methods",
+  "difficulty": "easy",
+  "question": "When would you use map instead of forEach?"
+ },
+ {
+  "track": "frontend",
+  "type": "technical",
+  "topic": "Responsive design",
+  "difficulty": "easy",
+  "question": "How would you make a web page responsive?"
+ },
+ {
+  "track": "frontend",
+  "type": "technical",
+  "topic": "Promises",
+  "difficulty": "easy",
+  "question": "What is a Promise in JavaScript?"
+ },
+ {
+  "track": "frontend",
+  "type": "technical",
+  "topic": "React re-rendering",
+  "difficulty": "medium",
+  "question": "What causes a React component to re-render?"
+ },
+ {
+  "track": "frontend",
+  "type": "technical",
+  "topic": "useEffect dependencies",
+  "difficulty": "medium",
+  "question": "What is the dependency array of useEffect for?"
+ },
+ {
+  "track": "frontend",
+  "type": "technical",
+  "topic": "Global state",
+  "difficulty": "medium",
+  "question": "When is local component state not enough?"
+ },
+ {
+  "track": "frontend",
+  "type": "technical",
+  "topic": "Page performance",
+  "difficulty": "medium",
+  "question": "How would you find out why a page loads slowly?"
+ },
+ {
+  "track": "frontend",
+  "type": "technical",
+  "topic": "Browser storage",
+  "difficulty": "medium",
+  "question": "What are the differences between localStorage, sessionStorage and cookies?"
+ },
+ {
+  "track": "frontend",
+  "type": "technical",
+  "topic": "CORS",
+  "difficulty": "medium",
+  "question": "Why does the browser enforce CORS?"
+ },
+ {
+  "track": "frontend",
+  "type": "technical",
+  "topic": "Closures",
+  "difficulty": "medium",
+  "question": "What is a closure in JavaScript?"
+ },
+ {
+  "track": "frontend",
+  "type": "technical",
+  "topic": "Form validation",
+  "difficulty": "medium",
+  "question": "How would you handle validation in a complex form?"
+ },
+ {
+  "track": "frontend",
+  "type": "technical",
+  "topic": "Loading and error states",
+  "difficulty": "medium",
+  "question": "How would you handle loading and error states when fetching data?"
+ },
+ {
+  "track": "frontend",
+  "type": "technical",
+  "topic": "Rendering strategies",
+  "difficulty": "hard",
+  "question": "When would you choose server-side rendering over client-side rendering?"
+ },
+ {
+  "track": "frontend",
+  "type": "technical",
+  "topic": "Long lists",
+  "difficulty": "hard",
+  "question": "How would you render a list of 100,000 rows smoothly?"
+ },
+ {
+  "track": "frontend",
+  "type": "technical",
+  "topic": "XSS",
+  "difficulty": "hard",
+  "question": "How would you defend a web app against cross-site scripting?"
+ },
+ {
+  "track": "frontend",
+  "type": "technical",
+  "topic": "Component libraries",
+  "difficulty": "hard",
+  "question": "How would you design a component library that several teams share?"
+ },
+ {
+  "track": "frontend",
+  "type": "technical",
+  "topic": "Web performance metrics",
+  "difficulty": "hard",
+  "question": "Which metrics would you track to judge how fast a page feels?"
+ },
+ {
+  "track": "frontend",
+  "type": "technical",
+  "topic": "State architecture",
+  "difficulty": "hard",
+  "question": "How would you structure state in a large app with many real-time updates?"
+ },
+ {
+  "track": "data",
+  "type": "technical",
+  "topic": "SQL aggregation",
+  "difficulty": "easy",
+  "question": "What does GROUP BY do in SQL?"
+ },
+ {
+  "track": "data",
+  "type": "technical",
+  "topic": "WHERE vs HAVING",
+  "difficulty": "easy",
+  "question": "What is the difference between WHERE and HAVING?"
+ },
+ {
+  "track": "data",
+  "type": "technical",
+  "topic": "Mean vs median",
+  "difficulty": "easy",
+  "question": "When is the median a better summary than the mean?"
+ },
+ {
+  "track": "data",
+  "type": "technical",
+  "topic": "Missing values",
+  "difficulty": "easy",
+  "question": "How do you deal with missing values in a dataset?"
+ },
+ {
+  "track": "data",
+  "type": "technical",
+  "topic": "First look at data",
+  "difficulty": "easy",
+  "question": "What would you check first in a dataset you have never seen?"
+ },
+ {
+  "track": "data",
+  "type": "technical",
+  "topic": "Choosing charts",
+  "difficulty": "easy",
+  "question": "When would you use a bar chart instead of a line chart?"
+ },
+ {
+  "track": "data",
+  "type": "technical",
+  "topic": "Correlation",
+  "difficulty": "easy",
+  "question": "Why does correlation not imply causation?"
+ },
+ {
+  "track": "data",
+  "type": "technical",
+  "topic": "Duplicate rows",
+  "difficulty": "easy",
+  "question": "How would you find and remove duplicate rows?"
+ },
+ {
+  "track": "data",
+  "type": "technical",
+  "topic": "Pivot tables",
+  "difficulty": "easy",
+  "question": "What is a pivot table used for?"
+ },
+ {
+  "track": "data",
+  "type": "technical",
+  "topic": "A/B test significance",
+  "difficulty": "medium",
+  "question": "How would you decide whether an A/B test result is significant?"
+ },
+ {
+  "track": "data",
+  "type": "technical",
+  "topic": "Outliers",
+  "difficulty": "medium",
+  "question": "How would you handle outliers in your data?"
+ },
+ {
+  "track": "data",
+  "type": "technical",
+  "topic": "Window functions",
+  "difficulty": "medium",
+  "question": "What is a SQL window function?"
+ },
+ {
+  "track": "data",
+  "type": "technical",
+  "topic": "Product metrics",
+  "difficulty": "medium",
+  "question": "How would you define a metric for the health of a product?"
+ },
+ {
+  "track": "data",
+  "type": "technical",
+  "topic": "Dashboard design",
+  "difficulty": "medium",
+  "question": "How do you decide what belongs on a dashboard?"
+ },
+ {
+  "track": "data",
+  "type": "technical",
+  "topic": "Data pipeline validation",
+  "difficulty": "medium",
+  "question": "How would you check that a data pipeline produced correct numbers?"
+ },
+ {
+  "track": "data",
+  "type": "technical",
+  "topic": "Sampling bias",
+  "difficulty": "medium",
+  "question": "What is sampling bias?"
+ },
+ {
+  "track": "data",
+  "type": "technical",
+  "topic": "Explaining results",
+  "difficulty": "medium",
+  "question": "How would you explain a statistical result to a non-technical manager?"
+ },
+ {
+  "track": "data",
+  "type": "technical",
+  "topic": "Overfitting",
+  "difficulty": "medium",
+  "question": "What is overfitting?"
+ },
+ {
+  "track": "data",
+  "type": "technical",
+  "topic": "Causal impact",
+  "difficulty": "hard",
+  "question": "How would you measure the impact of a feature when an A/B test is not possible?"
+ },
+ {
+  "track": "data",
+  "type": "technical",
+  "topic": "Slow analytical queries",
+  "difficulty": "hard",
+  "question": "How would you speed up a slow analytical SQL query?"
+ },
+ {
+  "track": "data",
+  "type": "technical",
+  "topic": "Precision vs recall",
+  "difficulty": "hard",
+  "question": "How do you choose between precision and recall for a given problem?"
+ },
+ {
+  "track": "data",
+  "type": "technical",
+  "topic": "Warehouse modeling",
+  "difficulty": "hard",
+  "question": "How would you design a star schema for e-commerce reporting?"
+ },
+ {
+  "track": "data",
+  "type": "technical",
+  "topic": "Conflicting numbers",
+  "difficulty": "hard",
+  "question": "How would you investigate why two dashboards show different revenue?"
+ },
+ {
+  "track": "devops",
+  "type": "technical",
+  "topic": "CI vs CD",
+  "difficulty": "easy",
+  "question": "What is the difference between continuous integration and continuous delivery?"
+ },
+ {
+  "track": "devops",
+  "type": "technical",
+  "topic": "Image vs container",
+  "difficulty": "easy",
+  "question": "What is the difference between a Docker image and a container?"
+ },
+ {
+  "track": "devops",
+  "type": "technical",
+  "topic": "Disk space",
+  "difficulty": "easy",
+  "question": "How would you find out why a Linux server is running out of disk space?"
+ },
+ {
+  "track": "devops",
+  "type": "technical",
+  "topic": "Staging environments",
+  "difficulty": "easy",
+  "question": "Why do teams keep a staging environment next to production?"
+ },
+ {
+  "track": "devops",
+  "type": "technical",
+  "topic": "Logs vs metrics",
+  "difficulty": "easy",
+  "question": "What is the difference between logs and metrics?"
+ },
+ {
+  "track": "devops",
+  "type": "technical",
+  "topic": "Pipeline secrets",
+  "difficulty": "easy",
+  "question": "How should secrets be handled in a deployment pipeline?"
+ },
+ {
+  "track": "devops",
+  "type": "technical",
+  "topic": "Load balancers",
+  "difficulty": "easy",
+  "question": "What does a load balancer do?"
+ },
+ {
+  "track": "devops",
+  "type": "technical",
+  "topic": "DNS",
+  "difficulty": "easy",
+  "question": "What does DNS do?"
+ },
+ {
+  "track": "devops",
+  "type": "technical",
+  "topic": "Kubernetes Deployments",
+  "difficulty": "medium",
+  "question": "What is the role of a Kubernetes Deployment?"
+ },
+ {
+  "track": "devops",
+  "type": "technical",
+  "topic": "Infrastructure as code",
+  "difficulty": "medium",
+  "question": "Why use infrastructure as code instead of clicking in a cloud console?"
+ },
+ {
+  "track": "devops",
+  "type": "technical",
+  "topic": "Blue-green deployment",
+  "difficulty": "medium",
+  "question": "What is a blue-green deployment?"
+ },
+ {
+  "track": "devops",
+  "type": "technical",
+  "topic": "Alert fatigue",
+  "difficulty": "medium",
+  "question": "How do you avoid alert fatigue?"
+ },
+ {
+  "track": "devops",
+  "type": "technical",
+  "topic": "Fast rollbacks",
+  "difficulty": "medium",
+  "question": "How would you roll back a bad release quickly?"
+ },
+ {
+  "track": "devops",
+  "type": "technical",
+  "topic": "Container hardening",
+  "difficulty": "medium",
+  "question": "How would you reduce the attack surface of a container image?"
+ },
+ {
+  "track": "devops",
+  "type": "technical",
+  "topic": "Slow pipelines",
+  "difficulty": "medium",
+  "question": "How would you speed up a slow CI pipeline?"
+ },
+ {
+  "track": "devops",
+  "type": "technical",
+  "topic": "Service level objectives",
+  "difficulty": "hard",
+  "question": "How would you define an SLO for a service?"
+ },
+ {
+  "track": "devops",
+  "type": "technical",
+  "topic": "Incident command",
+  "difficulty": "hard",
+  "question": "How would you run the response when production is down?"
+ },
+ {
+  "track": "devops",
+  "type": "technical",
+  "topic": "Multi-region resilience",
+  "difficulty": "hard",
+  "question": "How would you design a service to survive the loss of a whole region?"
+ },
+ {
+  "track": "devops",
+  "type": "technical",
+  "topic": "Cloud cost",
+  "difficulty": "hard",
+  "question": "How would you reduce cloud costs without hurting reliability?"
+ },
+ {
+  "track": "devops",
+  "type": "technical",
+  "topic": "Capacity planning",
+  "difficulty": "hard",
+  "question": "How would you prepare for a traffic spike you can predict?"
+ },
+ {
+  "track": "qa",
+  "type": "technical",
+  "topic": "Test levels",
+  "difficulty": "easy",
+  "question": "What is the difference between unit, integration and end-to-end tests?"
+ },
+ {
+  "track": "qa",
+  "type": "technical",
+  "topic": "Bug reports",
+  "difficulty": "easy",
+  "question": "What should a good bug report contain?"
+ },
+ {
+  "track": "qa",
+  "type": "technical",
+  "topic": "Login test cases",
+  "difficulty": "easy",
+  "question": "How would you write test cases for a login page?"
+ },
+ {
+  "track": "qa",
+  "type": "technical",
+  "topic": "Severity vs priority",
+  "difficulty": "easy",
+  "question": "What is the difference between the severity and the priority of a bug?"
+ },
+ {
+  "track": "qa",
+  "type": "technical",
+  "topic": "Regression testing",
+  "difficulty": "easy",
+  "question": "What is regression testing?"
+ },
+ {
+  "track": "qa",
+  "type": "technical",
+  "topic": "Boundary values",
+  "difficulty": "easy",
+  "question": "What is boundary value analysis?"
+ },
+ {
+  "track": "qa",
+  "type": "technical",
+  "topic": "Smoke tests",
+  "difficulty": "easy",
+  "question": "What is a smoke test?"
+ },
+ {
+  "track": "qa",
+  "type": "technical",
+  "topic": "Choosing what to automate",
+  "difficulty": "medium",
+  "question": "How do you decide which tests to automate?"
+ },
+ {
+  "track": "qa",
+  "type": "technical",
+  "topic": "Flaky tests",
+  "difficulty": "medium",
+  "question": "How would you deal with a flaky automated test?"
+ },
+ {
+  "track": "qa",
+  "type": "technical",
+  "topic": "API testing",
+  "difficulty": "medium",
+  "question": "How would you test a REST API without a user interface?"
+ },
+ {
+  "track": "qa",
+  "type": "technical",
+  "topic": "Test plans",
+  "difficulty": "medium",
+  "question": "What would you put in a test plan for a new feature?"
+ },
+ {
+  "track": "qa",
+  "type": "technical",
+  "topic": "Exploratory testing",
+  "difficulty": "medium",
+  "question": "When is exploratory testing valuable?"
+ },
+ {
+  "track": "qa",
+  "type": "technical",
+  "topic": "Performance testing",
+  "difficulty": "medium",
+  "question": "How would you start performance testing a web application?"
+ },
+ {
+  "track": "qa",
+  "type": "technical",
+  "topic": "Test data",
+  "difficulty": "medium",
+  "question": "How would you manage test data across environments?"
+ },
+ {
+  "track": "qa",
+  "type": "technical",
+  "topic": "Quality strategy",
+  "difficulty": "hard",
+  "question": "How would you introduce a quality strategy to a team that has none?"
+ },
+ {
+  "track": "qa",
+  "type": "technical",
+  "topic": "Release gates",
+  "difficulty": "hard",
+  "question": "Which tests should block a release?"
+ },
+ {
+  "track": "qa",
+  "type": "technical",
+  "topic": "Risk-based testing",
+  "difficulty": "hard",
+  "question": "How would you test a release when there is far too little time?"
+ },
+ {
+  "track": "qa",
+  "type": "technical",
+  "topic": "Contract testing",
+  "difficulty": "hard",
+  "question": "When is contract testing better than end-to-end tests?"
+ },
+ {
+  "track": "qa",
+  "type": "technical",
+  "topic": "Testing metrics",
+  "difficulty": "hard",
+  "question": "Which metrics show whether your testing is effective?"
+ },
+ {
+  "track": "product",
+  "type": "technical",
+  "topic": "User research",
+  "difficulty": "easy",
+  "question": "How would you find out what users need?"
+ },
+ {
+  "track": "product",
+  "type": "technical",
+  "topic": "Feature prioritization",
+  "difficulty": "easy",
+  "question": "How would you prioritize a list of feature requests?"
+ },
+ {
+  "track": "product",
+  "type": "technical",
+  "topic": "Success metrics",
+  "difficulty": "easy",
+  "question": "How would you measure whether a new feature succeeded?"
+ },
+ {
+  "track": "product",
+  "type": "technical",
+  "topic": "User stories",
+  "difficulty": "easy",
+  "question": "What makes a good user story?"
+ },
+ {
+  "track": "product",
+  "type": "technical",
+  "topic": "MVP",
+  "difficulty": "easy",
+  "question": "What is a minimum viable product?"
+ },
+ {
+  "track": "product",
+  "type": "technical",
+  "topic": "Difficult stakeholders",
+  "difficulty": "easy",
+  "question": "How would you respond to a stakeholder who asks for a feature you think is wrong?"
+ },
+ {
+  "track": "product",
+  "type": "technical",
+  "topic": "Roadmaps",
+  "difficulty": "easy",
+  "question": "What is the purpose of a product roadmap?"
+ },
+ {
+  "track": "product",
+  "type": "technical",
+  "topic": "Prioritization frameworks",
+  "difficulty": "medium",
+  "question": "How would you use a framework such as RICE to prioritize work?"
+ },
+ {
+  "track": "product",
+  "type": "technical",
+  "topic": "Technical debt trade-off",
+  "difficulty": "medium",
+  "question": "How would you choose between paying down technical debt and shipping a feature?"
+ },
+ {
+  "track": "product",
+  "type": "technical",
+  "topic": "Metric drop",
+  "difficulty": "medium",
+  "question": "Daily active users dropped by 10 percent: how would you investigate?"
+ },
+ {
+  "track": "product",
+  "type": "technical",
+  "topic": "Experiment design",
+  "difficulty": "medium",
+  "question": "How would you design an experiment for a new onboarding flow?"
+ },
+ {
+  "track": "product",
+  "type": "technical",
+  "topic": "Feature launch",
+  "difficulty": "medium",
+  "question": "How would you plan the launch of a new feature?"
+ },
+ {
+  "track": "product",
+  "type": "technical",
+  "topic": "Scope with engineers",
+  "difficulty": "medium",
+  "question": "How do you agree on scope with an engineering team?"
+ },
+ {
+  "track": "product",
+  "type": "technical",
+  "topic": "Competitor analysis",
+  "difficulty": "medium",
+  "question": "How would you analyze a competitor?"
+ },
+ {
+  "track": "product",
+  "type": "technical",
+  "topic": "Market entry",
+  "difficulty": "hard",
+  "question": "How would you decide whether to enter a new market?"
+ },
+ {
+  "track": "product",
+  "type": "technical",
+  "topic": "Pricing",
+  "difficulty": "hard",
+  "question": "How would you set the price of a new subscription product?"
+ },
+ {
+  "track": "product",
+  "type": "technical",
+  "topic": "North star metric",
+  "difficulty": "hard",
+  "question": "How would you choose a north star metric for a marketplace?"
+ },
+ {
+  "track": "product",
+  "type": "technical",
+  "topic": "Sunsetting a feature",
+  "difficulty": "hard",
+  "question": "How would you decide to retire a feature that some customers love?"
+ },
+ {
+  "track": "product",
+  "type": "technical",
+  "topic": "Conflicting evidence",
+  "difficulty": "hard",
+  "question": "What would you do when customer feedback contradicts the analytics?"
+ },
+ {
+  "track": "dev",
+  "type": "technical",
+  "topic": "Debugging approach",
+  "difficulty": "easy",
+  "question": "How do you approach finding the cause of a bug?"
+ },
+ {
+  "track": "dev",
+  "type": "technical",
+  "topic": "Why branches",
+  "difficulty": "easy",
+  "question": "Why do teams work on separate branches?"
+ },
+ {
+  "track": "dev",
+  "type": "technical",
+  "topic": "Merge conflicts",
+  "difficulty": "easy",
+  "question": "How do you resolve a merge conflict?"
+ },
+ {
+  "track": "dev",
+  "type": "technical",
+  "topic": "Code review",
+  "difficulty": "easy",
+  "question": "What do you look for when reviewing someone else's work?"
+ },
+ {
+  "track": "general",
+  "type": "technical",
+  "topic": "Learning new tools",
+  "difficulty": "easy",
+  "question": "How do you learn a new technology quickly?"
+ },
+ {
+  "track": "general",
+  "type": "technical",
+  "topic": "Estimation",
+  "difficulty": "easy",
+  "question": "How do you estimate how long a task will take?"
+ },
+ {
+  "track": "dev",
+  "type": "technical",
+  "topic": "Automated tests",
+  "difficulty": "easy",
+  "question": "Why is it worth writing automated tests?"
+ },
+ {
+  "track": "general",
+  "type": "technical",
+  "topic": "Documentation",
+  "difficulty": "easy",
+  "question": "What makes documentation useful?"
+ },
+ {
+  "track": "dev",
+  "type": "technical",
+  "topic": "Technical debt",
+  "difficulty": "medium",
+  "question": "When is technical debt acceptable?"
+ },
+ {
+  "track": "general",
+  "type": "technical",
+  "topic": "Choosing between solutions",
+  "difficulty": "medium",
+  "question": "How do you choose between two valid technical solutions?"
+ },
+ {
+  "track": "dev",
+  "type": "technical",
+  "topic": "Production failure",
+  "difficulty": "medium",
+  "question": "How would you approach an unexpected failure in production?"
+ },
+ {
+  "track": "dev",
+  "type": "technical",
+  "topic": "Refactoring",
+  "difficulty": "medium",
+  "question": "When would you refactor code that already works?"
+ },
+ {
+  "track": "dev",
+  "type": "technical",
+  "topic": "Security first checks",
+  "difficulty": "medium",
+  "question": "Which security checks do you make on every new feature?"
+ },
+ {
+  "track": "dev",
+  "type": "technical",
+  "topic": "Growing usage",
+  "difficulty": "medium",
+  "question": "What changes when an app grows from 100 to 100,000 users?"
+ },
+ {
+  "track": "dev",
+  "type": "technical",
+  "topic": "Architecture decisions",
+  "difficulty": "hard",
+  "question": "How do you record and communicate an architecture decision?"
+ },
+ {
+  "track": "general",
+  "type": "technical",
+  "topic": "Build vs buy",
+  "difficulty": "hard",
+  "question": "How would you decide between building a tool and buying one?"
+ },
+ {
+  "track": "general",
+  "type": "technical",
+  "topic": "Raising the team level",
+  "difficulty": "hard",
+  "question": "How would you raise the technical level of a junior team?"
+ },
+ {
+  "track": "general",
+  "type": "technical",
+  "topic": "Unclear requirements",
+  "difficulty": "hard",
+  "question": "How do you start a project with unclear requirements?"
+ },
+ {
+  "track": "behavioral",
+  "type": "behavioral",
+  "topic": "Teamwork",
+  "difficulty": "easy",
+  "question": "Tell me about a time you worked well in a team."
+ },
+ {
+  "track": "behavioral",
+  "type": "behavioral",
+  "topic": "Learning from mistakes",
+  "difficulty": "easy",
+  "question": "Tell me about a mistake you made at work or in a project."
+ },
+ {
+  "track": "behavioral",
+  "type": "behavioral",
+  "topic": "Working under pressure",
+  "difficulty": "easy",
+  "question": "Tell me about a time you had to finish something under time pressure."
+ },
+ {
+  "track": "behavioral",
+  "type": "behavioral",
+  "topic": "Helping a teammate",
+  "difficulty": "easy",
+  "question": "Tell me about a time you helped a teammate."
+ },
+ {
+  "track": "behavioral",
+  "type": "behavioral",
+  "topic": "Learning quickly",
+  "difficulty": "easy",
+  "question": "Tell me about a time you learned something difficult quickly."
+ },
+ {
+  "track": "behavioral",
+  "type": "behavioral",
+  "topic": "Receiving feedback",
+  "difficulty": "easy",
+  "question": "Tell me about a time you received critical feedback."
+ },
+ {
+  "track": "behavioral",
+  "type": "behavioral",
+  "topic": "Proud project",
+  "difficulty": "easy",
+  "question": "Tell me about a project you are proud of."
+ },
+ {
+  "track": "behavioral",
+  "type": "behavioral",
+  "topic": "Disagreement",
+  "difficulty": "easy",
+  "question": "Tell me about a time you disagreed with a classmate or colleague."
+ },
+ {
+  "track": "behavioral",
+  "type": "behavioral",
+  "topic": "Resolving conflict",
+  "difficulty": "medium",
+  "question": "Tell me about a conflict at work that you helped to resolve."
+ },
+ {
+  "track": "behavioral",
+  "type": "behavioral",
+  "topic": "Taking ownership",
+  "difficulty": "medium",
+  "question": "Tell me about a time you took ownership of a problem nobody asked you to fix."
+ },
+ {
+  "track": "behavioral",
+  "type": "behavioral",
+  "topic": "A project that went wrong",
+  "difficulty": "medium",
+  "question": "Tell me about a project that did not go as planned."
+ },
+ {
+  "track": "behavioral",
+  "type": "behavioral",
+  "topic": "Juggling priorities",
+  "difficulty": "medium",
+  "question": "Tell me about a time you had to juggle several priorities."
+ },
+ {
+  "track": "behavioral",
+  "type": "behavioral",
+  "topic": "Improving a process",
+  "difficulty": "medium",
+  "question": "Tell me about a time you improved a process."
+ },
+ {
+  "track": "behavioral",
+  "type": "behavioral",
+  "topic": "Pushing back",
+  "difficulty": "medium",
+  "question": "Tell me about a time you pushed back on a request."
+ },
+ {
+  "track": "behavioral",
+  "type": "behavioral",
+  "topic": "Acting under ambiguity",
+  "difficulty": "medium",
+  "question": "Tell me about a time you had to act with unclear requirements."
+ },
+ {
+  "track": "behavioral",
+  "type": "behavioral",
+  "topic": "Explaining complex ideas",
+  "difficulty": "medium",
+  "question": "Tell me about a time you explained a complex idea to a non-expert."
+ },
+ {
+  "track": "behavioral",
+  "type": "behavioral",
+  "topic": "Leading change",
+  "difficulty": "hard",
+  "question": "Tell me about a time you led a team through a difficult change."
+ },
+ {
+  "track": "behavioral",
+  "type": "behavioral",
+  "topic": "Influencing stakeholders",
+  "difficulty": "hard",
+  "question": "Tell me about a time you convinced stakeholders to change direction."
+ },
+ {
+  "track": "behavioral",
+  "type": "behavioral",
+  "topic": "Developing others",
+  "difficulty": "hard",
+  "question": "Tell me about a time you helped another person grow."
+ },
+ {
+  "track": "behavioral",
+  "type": "behavioral",
+  "topic": "Deciding with incomplete information",
+  "difficulty": "hard",
+  "question": "Tell me about a high-stakes decision you made with incomplete information."
+ },
+ {
+  "track": "behavioral",
+  "type": "behavioral",
+  "topic": "Underperformance",
+  "difficulty": "hard",
+  "question": "Tell me about a time you dealt with an underperforming colleague."
+ },
+ {
+  "track": "behavioral",
+  "type": "behavioral",
+  "topic": "A decision that backfired",
+  "difficulty": "hard",
+  "question": "Tell me about a decision of yours that had a negative business impact."
+ },
+ {
+  "track": "hr",
+  "type": "hr",
+  "topic": "Introduction",
+  "difficulty": "easy",
+  "question": "Can you introduce yourself in about a minute?"
+ },
+ {
+  "track": "hr",
+  "type": "hr",
+  "topic": "Interest in the role",
+  "difficulty": "easy",
+  "question": "Why are you interested in this role?"
+ },
+ {
+  "track": "hr",
+  "type": "hr",
+  "topic": "Team preferences",
+  "difficulty": "easy",
+  "question": "What do you look for in a team?"
+ },
+ {
+  "track": "hr",
+  "type": "hr",
+  "topic": "Biggest strength",
+  "difficulty": "easy",
+  "question": "What is your biggest strength for this role?"
+ },
+ {
+  "track": "hr",
+  "type": "hr",
+  "topic": "Weakness",
+  "difficulty": "easy",
+  "question": "What is a weakness you are working on?"
+ },
+ {
+  "track": "hr",
+  "type": "hr",
+  "topic": "Two-year goals",
+  "difficulty": "easy",
+  "question": "Where do you want to be in two years?"
+ },
+ {
+  "track": "hr",
+  "type": "hr",
+  "topic": "Work style",
+  "difficulty": "easy",
+  "question": "Do you prefer working alone or in a team?"
+ },
+ {
+  "track": "hr",
+  "type": "hr",
+  "topic": "Receiving feedback style",
+  "difficulty": "easy",
+  "question": "How do you like to receive feedback?"
+ },
+ {
+  "track": "hr",
+  "type": "hr",
+  "topic": "Motivation",
+  "difficulty": "medium",
+  "question": "What motivates you to do your best work?"
+ },
+ {
+  "track": "hr",
+  "type": "hr",
+  "topic": "Leaving a role",
+  "difficulty": "medium",
+  "question": "Why are you leaving your current role?"
+ },
+ {
+  "track": "hr",
+  "type": "hr",
+  "topic": "Work environment",
+  "difficulty": "medium",
+  "question": "What kind of work environment helps you thrive?"
+ },
+ {
+  "track": "hr",
+  "type": "hr",
+  "topic": "Salary expectations",
+  "difficulty": "medium",
+  "question": "How did you arrive at your salary expectations?"
+ },
+ {
+  "track": "hr",
+  "type": "hr",
+  "topic": "Handling stress",
+  "difficulty": "medium",
+  "question": "How do you handle stress at work?"
+ },
+ {
+  "track": "hr",
+  "type": "hr",
+  "topic": "Remote work",
+  "difficulty": "medium",
+  "question": "How do you stay productive when working remotely?"
+ },
+ {
+  "track": "hr",
+  "type": "hr",
+  "topic": "Long-term commitment",
+  "difficulty": "hard",
+  "question": "What would make you stay with a company for five years?"
+ },
+ {
+  "track": "hr",
+  "type": "hr",
+  "topic": "Ideal manager",
+  "difficulty": "hard",
+  "question": "What kind of manager brings out your best work?"
+ },
+ {
+  "track": "hr",
+  "type": "hr",
+  "topic": "Non-negotiable values",
+  "difficulty": "hard",
+  "question": "Which value would you not compromise on at work?"
+ },
+ {
+  "track": "hr",
+  "type": "hr",
+  "topic": "Salary or learning",
+  "difficulty": "hard",
+  "question": "If you had to choose between a higher salary and faster learning, which would you choose?"
+ }
+]
