@@ -36,8 +36,8 @@ export function ScoreCard({ report, title }: { report: Report; title?: string })
       className="flex flex-col items-center gap-6 rounded-xl border border-border bg-card p-6 sm:flex-row sm:gap-8 sm:p-8 print:flex-row print:break-inside-avoid"
     >
       <ScoreRing score={report.overall_score} />
-      <div className="min-w-0 text-center sm:text-left">
-        {title && <p className="truncate text-sm text-muted-foreground print:whitespace-normal">{title}</p>}
+      <div className="w-full min-w-0 text-center sm:w-auto sm:text-left">
+        {title && <p className="break-words text-sm text-muted-foreground sm:truncate print:whitespace-normal">{title}</p>}
         <h1 className="font-heading text-2xl font-bold sm:text-3xl">
           <span className={tone.text}>{label}</span>
         </h1>
