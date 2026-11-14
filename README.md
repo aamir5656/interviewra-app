@@ -1,5 +1,9 @@
 # Interviewra
 
+[![CI](https://github.com/aamir5656/interviewra-app/actions/workflows/ci.yml/badge.svg)](https://github.com/aamir5656/interviewra-app/actions/workflows/ci.yml)
+[![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+[![Live demo](https://img.shields.io/badge/live-demo-brightgreen.svg)](https://interviewra-app.vercel.app)
+
 **Practice a real job interview with an AI interviewer, then get an honest report on how you did.**
 
 Interviewra asks one question at a time, follows up when your answer is weak or wrong, and finishes with a score, a skill breakdown and a list of things to study. No signup is needed to start.
