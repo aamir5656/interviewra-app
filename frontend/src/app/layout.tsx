@@ -10,9 +10,15 @@ import "@/styles/globals.css";
 const spaceGrotesk = Space_Grotesk({ subsets: ["latin"], variable: "--font-space-grotesk", display: "swap" });
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter", display: "swap" });
 
+const TITLE = "Interviewra: AI mock interview coach";
+const DESCRIPTION = "Practice real interviews with an AI interviewer and get a detailed, honest report. Free, no signup.";
+
 export const metadata: Metadata = {
-  title: "Interviewra: AI mock interview coach",
-  description: "Practice real interviews with an AI interviewer and get a detailed, honest report. Free, no signup.",
+  metadataBase: new URL("https://interviewra-app.vercel.app"),
+  title: TITLE,
+  description: DESCRIPTION,
+  openGraph: { title: TITLE, description: DESCRIPTION, url: "/", siteName: "Interviewra", type: "website" },
+  twitter: { card: "summary", title: TITLE, description: DESCRIPTION },
 };
 
 export default function RootLayout({ children }: { children: ReactNode }) {
